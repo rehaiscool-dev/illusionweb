@@ -17,9 +17,9 @@ const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose }) => {
       id: 'windows',
       name: 'Windows',
       icon: Monitor,
-      version: '2.1.0',
-      downloadUrl: '', // Empty means W.I.P
-      status: 'W.I.P',
+      version: '2.0.0',
+      downloadUrl: 'https://gofile.io/d/1mpEES', // Empty means W.I.P
+      status: 'Beta',
       manualStatus: true
     },
     {
